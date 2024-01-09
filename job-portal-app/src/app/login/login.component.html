@@ -1,0 +1,28 @@
+<div class="login-container">
+  <img class="job" src="assets/images/job.png" alt="" />
+  <div class="logo">Job Board</div>
+  <div class="desc">
+    Job Board is your go-to Job application, simplifying the job search process for both employers and job seekers.
+    Job Board ensures you find the right opportunities or candidates effortlessly.
+    Streamline your hiring process, manage applications seamlessly, and stay connected on-the-go with mobile accessibility.
+    Job Board - Where Careers and Opportunities Converge.
+  </div>
+  <div class="login-form">
+    <div class="form-group">
+            <label for="uname">Username</label>
+            <input type="text" name="uname" class="form-control" [(ngModel)]="username"/>
+    </div>
+    <div class="form-group">
+            <label for="pword">Password</label>
+            <input type="password" name="pword" class="form-control" [(ngModel)]="password" />
+
+    </div>
+    <div class="btn-container">
+      <div class="error">{{ errorMsg }}</div>
+      <button class="btn btn-dark"(click)="login()">Login</button>
+
+    </div>
+  </div>
+</div>
+
+
