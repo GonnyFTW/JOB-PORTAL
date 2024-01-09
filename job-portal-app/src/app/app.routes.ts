@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
+import { HeaderComponent } from './header/header.component';
 
 export const routes: Routes = [
   {path: '', redirectTo: 'login', pathMatch: 'full'},
@@ -14,7 +15,7 @@ export const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [LoginComponent],
+  declarations: [LoginComponent, HeaderComponent],
   imports: [RouterModule.forRoot(routes), FormsModule],
   exports: [RouterModule]
 

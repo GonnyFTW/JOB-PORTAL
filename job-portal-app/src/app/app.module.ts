@@ -11,6 +11,7 @@ import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     AppComponent,
+    AppRoutingModule,
     LoginComponent,
     HomeComponent,
     HeaderComponent,
@@ -21,6 +22,7 @@ import { RouterModule } from '@angular/router';
     BrowserModule,
     FormsModule,
     RouterModule,
+    HomeComponent
     
   ],
   providers: [],
