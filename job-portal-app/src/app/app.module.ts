@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
+import { FeatureModule } from './feature/feature.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
     RouterModule,
     HttpClientModule,
     AppRoutingModule,
-    NgbRatingModule
+    NgbRatingModule,
+    FeatureModule
   ],
   providers: [],
   bootstrap: [AppComponent]

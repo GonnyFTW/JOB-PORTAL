@@ -18,15 +18,8 @@
           <div class="name">{{job.name}}</div>
           <div class="location">{{job.location}}</div>
           <div class="rating">
-            <ng-template #t let-fill="fill">
-              <i class="bi-heart-fill">
-                @if (fill > 0) {
-                <i class="bi-heart-fill filled" [style.width.%]="fill"></i>
-                }
-              </i>
-            </ng-template>
-
-            <ngb-rating [(rate)]="job.rating" [starTemplate]="t" [readonly]="true" [max]="5" [ariaValueText]="ariaValueText" />
+            <span class="rating-value">{{job.rating}}</span>
+            <app-star-rating [rating]="job.rating" [isReadOnly]="true"></app-star-rating>
 
           </div>
         </div>

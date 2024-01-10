@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "name": "AI Research Scientist at Quantum Innovations Labs",
+    "cover": "https://example.com/images/ai_research_scientist.jpg",
+    "rating": 4.8,
+    "location": "Berlin, Germany",
+    "reviews": [
+      {
+        "author": "Sophia Müller",
+        "published_on": "2024-01-10 09:45:30",
+        "review": "Exciting projects and brilliant team collaboration",
+        "rating": 4.9
+      },
+      {
+        "author": "Liam Patel",
+        "published_on": "2024-01-09 15:20:45",
+        "review": "Cutting-edge research and great work culture",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Virtual Reality Developer at ImagiTech Solutions",
+    "cover": "https://example.com/images/vr_developer.jpg",
+    "rating": 4.5,
+    "location": "Los Angeles, CA",
+    "reviews": [
+      {
+        "author": "Eva Thompson",
+        "published_on": "2024-01-08 10:30:15",
+        "review": "Innovative projects and supportive environment",
+        "rating": 4.8
+      },
+      {
+        "author": "Ryan Baker",
+        "published_on": "2024-01-07 16:00:00",
+        "review": "Exciting opportunities and fantastic team",
+        "rating": 4.2
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Blockchain Developer at CryptoTech Ventures",
+    "cover": "https://example.com/images/blockchain_developer.jpg",
+    "rating": 4.3,
+    "location": "Singapore",
+    "reviews": [
+      {
+        "author": "Amara Singh",
+        "published_on": "2024-01-06 14:10:20",
+        "review": "Innovative blockchain projects and collaborative team",
+        "rating": 4.5
+      },
+      {
+        "author": "Raj Patel",
+        "published_on": "2024-01-05 10:55:45",
+        "review": "Cutting-edge technology and great learning opportunities",
+        "rating": 4.1
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Environmental Sustainability Analyst at GreenWorld Initiatives",
+    "cover": "https://example.com/images/environmental_analyst.jpg",
+    "rating": 4.9,
+    "location": "Sydney, Australia",
+    "reviews": [
+      {
+        "author": "Isabella Brown",
+        "published_on": "2024-01-04 18:30:10",
+        "review": "Meaningful work and positive impact on the environment",
+        "rating": 5.0
+      },
+      {
+        "author": "David Chen",
+        "published_on": "2024-01-03 15:25:30",
+        "review": "Passionate team and innovative solutions",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Space Exploration Engineer at Galactic Frontiers",
+    "cover": "https://example.com/images/space_exploration_engineer.jpg",
+    "rating": 4.7,
+    "location": "Houston, TX",
+    "reviews": [
+      {
+        "author": "Astrid Cooper",
+        "published_on": "2024-01-02 13:40:15",
+        "review": "Exciting space projects and collaborative atmosphere",
+        "rating": 4.5
+      },
+      {
+        "author": "Nolan Taylor",
+        "published_on": "2024-01-01 11:15:00",
+        "review": "Innovative work and supportive colleagues",
+        "rating": 4.9
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Augmented Reality Designer at FuturaTech Creations",
+    "cover": "https://example.com/images/ar_designer.jpg",
+    "rating": 4.4,
+    "location": "Tokyo, Japan",
+    "reviews": [
+      {
+        "author": "Mia Yamamoto",
+        "published_on": "2024-01-10 10:15:30",
+        "review": "Innovative AR projects and friendly work environment",
+        "rating": 4.6
+      },
+      {
+        "author": "Ryuji Nakamura",
+        "published_on": "2024-01-09 14:20:45",
+        "review": "Great collaboration and creative opportunities",
+        "rating": 4.2
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Medical Robotics Engineer at HealthTech Innovations",
+    "cover": "https://example.com/images/medical_robotics_engineer.jpg",
+    "rating": 4.6,
+    "location": "Berlin, Germany",
+    "reviews": [
+      {
+        "author": "Dr. Emily Schmidt",
+        "published_on": "2024-01-08 11:30:15",
+        "review": "Revolutionary projects and supportive team",
+        "rating": 4.9
+      },
+      {
+        "author": "Dr. Javier Rodriguez",
+        "published_on": "2024-01-07 16:45:00",
+        "review": "Cutting-edge technology and impactful work",
+        "rating": 4.3
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Renewable Energy Specialist at EcoSolutions Group",
+    "cover": "https://example.com/images/renewable_energy_specialist.jpg",
+    "rating": 4.2,
+    "location": "San Francisco, CA",
+    "reviews": [
+      {
+        "author": "Sarah Thompson",
+        "published_on": "2024-01-06 13:10:20",
+        "review": "Meaningful work and positive impact on the environment",
+        "rating": 4.0
+      },
+      {
+        "author": "Daniel Brown",
+        "published_on": "2024-01-05 09:55:45",
+        "review": "Passionate team and innovative solutions",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Cybersecurity Analyst at SecureTech Solutions",
+    "cover": "https://example.com/images/cybersecurity_analyst.jpg",
+    "rating": 4.9,
+    "location": "London, UK",
+    "reviews": [
+      {
+        "author": "Alexandra Turner",
+        "published_on": "2024-01-04 17:30:10",
+        "review": "Challenging projects and strong team collaboration",
+        "rating": 5.0
+      },
+      {
+        "author": "James Wilson",
+        "published_on": "2024-01-03 14:25:30",
+        "review": "Top-notch security solutions and great colleagues",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Biomedical Engineer at HealthInnovate Solutions",
+    "cover": "https://example.com/images/biomedical_engineer.jpg",
+    "rating": 4.4,
+    "location": "Singapore",
+    "reviews": [
+      {
+        "author": "Dr. Mei Ling",
+        "published_on": "2024-01-02 12:40:15",
+        "review": "Innovative medical projects and collaborative team",
+        "rating": 4.2
+      },
+      {
+        "author": "Dr. Samuel Tan",
+        "published_on": "2024-01-01 10:15:00",
+        "review": "Exciting research and positive work environment",
+        "rating": 4.6
+      }
+    ]
+  }
+]
