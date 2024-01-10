@@ -23,7 +23,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.getTrendingJobs();
-
+    this.getPopularJobs();
   }
 
   getTrendingJobs() {
