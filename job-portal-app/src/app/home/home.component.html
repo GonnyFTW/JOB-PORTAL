@@ -1,27 +1,39 @@
 <app-header> </app-header>
 <div class="home-container">
-  
-    <div class="all-jobs"></div>
-    <div class="trending-jobs">
-      <div class="top">
-        <h4>Trending Jobs</h4>
-        <div class="view-all">View All</div>
-      </div>
-      <div class="job-thumbnail">
-        <div class="job" *ngFor="let job of trendingJobs">
 
-          <div class="cover">
-            <img class="job-image" [src]="job.cover" alt="">
-          </div>
-          <div class="detail">
-            <div class="name">{{job.name}}</div>
-            <div class="location">{{job.location}}</div>
-            <div class="rating">{{job.rating}}</div>
+
+  <div class="all-jobs"></div>
+  <div class="trending-jobs">
+    <div class="top">
+      <h4>Trending Jobs</h4>
+      <div class="view-all">View All</div>
+    </div>
+    <div class="job-thumbnail">
+      <div class="job" *ngFor="let job of trendingJobs">
+
+        <div class="cover">
+          <img class="job-image" [src]="job.cover" alt="">
+        </div>
+        <div class="detail">
+          <div class="name">{{job.name}}</div>
+          <div class="location">{{job.location}}</div>
+          <div class="rating">
+            <ng-template #t let-fill="fill">
+              <i class="bi-heart-fill">
+                @if (fill > 0) {
+                <i class="bi-heart-fill filled" [style.width.%]="fill"></i>
+                }
+              </i>
+            </ng-template>
+
+            <ngb-rating [(rate)]="job.rating" [starTemplate]="t" [readonly]="true" [max]="5" [ariaValueText]="ariaValueText" />
+
           </div>
         </div>
       </div>
-
     </div>
-    <div class="popular-jobs"></div>
+
   </div>
+  <div class="popular-jobs"></div>
+</div>
 

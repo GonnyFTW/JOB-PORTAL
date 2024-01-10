@@ -8,6 +8,7 @@ import { JobsComponent } from './jobs/jobs.component'
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     RouterModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbRatingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
