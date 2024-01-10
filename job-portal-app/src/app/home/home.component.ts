@@ -16,6 +16,7 @@ import { FeatureModule } from '../feature/feature.module';
 
 export class HomeComponent implements OnInit {
 
+  popularJobs: any;
   trendingJobs: any;
 
   constructor(private http: HttpClient) { }
@@ -28,12 +29,19 @@ export class HomeComponent implements OnInit {
   getTrendingJobs() {
     this.http.get('http://localhost:4200/assets/data/trending-jobs.json').subscribe((jobs) => {
       this.trendingJobs = jobs;
-      console.log(this.trendingJobs);
+
     });
+  }
 
+  getPopularJobs() {
+      this.http.get('http://localhost:4200/assets/data/popular-jobs.json').subscribe((jobs) => {
+        this.popularJobs = jobs;
+       
+      });
 
+    }
 
   }
 
-  
-}
+
+

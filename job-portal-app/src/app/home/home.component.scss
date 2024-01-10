@@ -1,23 +1,37 @@
+
 .home-container {
   display: flex;
   align-items: flex-start;
   margin-left: 40px;
   margin-top: 0px;
   margin-right: 20px;
-
+  
 }
 
+
 .all-jobs {
-  margin-top: 20px;
-  order: 2;
-  flex: 1;
-  min-height: calc(80vh - 80px);
+  margin-top: 0px;
+  order: 1;
+  flex: 2;
+  min-height: calc(61vh - -598px);
   font-family: 'Times New Roman', Times, serif;
-  margin-left: 20px;
+  margin-left: 38px;
+  padding: 54px 103px;
+  border-left: 2px solid #faebd7;
+}
+
+.job-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.trending-jobs,
+.popular-jobs {
+  width: 48%; /* Adjust the width as needed */
+  margin-bottom: 20px; /* Adjust margin between sections as needed */
 }
 
 .top {
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,15 +44,24 @@ h4 {
   font-weight: bold;
   border-left: 5px solid #ffd800;
   padding-left: 10px;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
-.view-all {
+.view-all-trending {
   color: #ffd800;
   cursor: pointer;
   font-weight: bold;
-  margin-right: 85px;
+  margin-right: -310px; /* Adjust margin as needed */
 }
+
+.view-all-popular {
+  color: #ffd800;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: -854px; /* Adjust margin as needed */
+}
+
+
 
 .location {
   font-weight: normal;
@@ -53,14 +76,14 @@ h4 {
   font-weight: bold;
   letter-spacing: 0.5px;
   height: 50px;
-  margin-top: 10px; 
+  margin-top: 10px;
   cursor: pointer;
 }
 
 .job-thumbnail {
   display: flex;
   justify-content: space-between;
-  margin-right: 290px; 
+  margin-right: 20px; /* Adjust margin as needed */
 }
 
 img {
@@ -68,31 +91,27 @@ img {
 }
 
 .cover {
- 
 }
 
 .job {
 }
 
 .popular-jobs {
-  order: 1;
+  order: 0;
   width: 25%;
   min-height: calc(100vh - 80px);
-  padding: 30px 40px;
-  font-family: 'Times New Roman', Times, serif;
-  border-left: 2px solid #faebd7;
+  
+
+  margin-right: 0px;
 }
 
 .job-image {
   max-width: 100%;
   border-radius: 11px;
-   
 }
 
 .trending-jobs {
-    width:68%;
-
-
+  width: 68%;
 }
 
 i {
@@ -111,19 +130,15 @@ i {
   left: 0;
 }
 
-
 .rating {
-    padding-right: 45px;
-    position: relative;
-    
+  padding-right: 45px;
+  position: relative;
 }
 
 .rating-value {
-    position: absolute;
-    top: -2px;
-    right: 0px;
-    font-weight: bold;
-    margin-right: 46px;
-   
-
+  position: absolute;
+  top: -2px;
+  right: 0px;
+  font-weight: bold;
+  margin-right: 46px;
 }
