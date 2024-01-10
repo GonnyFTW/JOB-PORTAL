@@ -1,0 +1,97 @@
+.home-container {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 40px;
+  margin-top: 0px;
+  margin-right: 20px;
+
+}
+
+.all-jobs {
+  margin-top: 20px;
+  order: 2;
+  flex: 1;
+  min-height: calc(80vh - 80px);
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 20px;
+}
+
+.top {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-left: 5px solid #ffd800;
+  padding-left: 10px;
+  margin-right: 10px; 
+}
+
+.view-all {
+  color: #ffd800;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 85px;
+}
+
+.location {
+  font-weight: normal;
+  font-size: small;
+}
+
+.detail {
+  width: 180px;
+}
+
+.name {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  height: 50px;
+  margin-top: 10px; 
+  cursor: pointer;
+}
+
+.job-thumbnail {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 290px; 
+}
+
+img {
+  border-radius: 5px;
+}
+
+.cover {
+ 
+}
+
+.job {
+}
+
+.popular-jobs {
+  order: 1;
+  width: 25%;
+  min-height: calc(100vh - 80px);
+  padding: 30px 40px;
+  font-family: 'Times New Roman', Times, serif;
+  border-left: 2px solid #faebd7;
+}
+
+.job-image {
+  max-width: 100%;
+  border-radius: 11px;
+   
+}
+
+.trending-jobs {
+    width:68%;
+
+
+}
+

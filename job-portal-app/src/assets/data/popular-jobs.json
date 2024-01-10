@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "name": "Software Developer at Tech Innovators Inc.",
+    "cover": "https://example.com/images/software_developer.jpg",
+    "rating": 4.7,
+    "location": "San Francisco, CA",
+    "reviews": [
+      {
+        "author": "John Doe",
+        "published_on": "2024-01-10 09:15:30",
+        "review": "Great company to work for!",
+        "rating": 5.0
+      },
+      {
+        "author": "Jane Smith",
+        "published_on": "2024-01-09 14:20:45",
+        "review": "Excellent team collaboration",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Marketing Coordinator at Global Marketing Solutions",
+    "cover": "https://example.com/images/marketing_coordinator.jpg",
+    "rating": 4.2,
+    "location": "New York, NY",
+    "reviews": [
+      {
+        "author": "Alice Johnson",
+        "published_on": "2024-01-08 11:30:22",
+        "review": "Exciting projects and creative freedom",
+        "rating": 4.0
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Data Analyst at Data Insights Co.",
+    "cover": "https://example.com/images/data_analyst.jpg",
+    "rating": 4.5,
+    "location": "Seattle, WA",
+    "reviews": [
+      {
+        "author": "Robert Anderson",
+        "published_on": "2024-01-07 16:45:18",
+        "review": "Innovative data-driven projects",
+        "rating": 5.0
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "UI/UX Designer at Creative Designs Studio",
+    "cover": "https://example.com/images/ui_ux_designer.jpg",
+    "rating": 4.8,
+    "location": "San Francisco, CA",
+    "reviews": [
+      {
+        "author": "Emily Williams",
+        "published_on": "2024-01-06 10:10:05",
+        "review": "Beautiful and user-friendly designs",
+        "rating": 5.0
+      },
+      {
+        "author": "Michael Davis",
+        "published_on": "2024-01-05 13:55:30",
+        "review": "Impressive design portfolio",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Financial Analyst at Global Finance Solutions",
+    "cover": "https://example.com/images/financial_analyst.jpg",
+    "rating": 4.3,
+    "location": "Chicago, IL",
+    "reviews": [
+      {
+        "author": "Sophie Brown",
+        "published_on": "2024-01-04 08:20:15",
+        "review": "Solid financial planning strategies",
+        "rating": 4.0
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Network Administrator at IT Solutions Inc.",
+    "cover": "https://example.com/images/network_administrator.jpg",
+    "rating": 4.6,
+    "location": "Austin, TX",
+    "reviews": [
+      {
+        "author": "Alex Turner",
+        "published_on": "2024-01-03 09:45:30",
+        "review": "Efficient management of IT infrastructure",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Content Writer at Creative Content Creators",
+    "cover": "https://example.com/images/content_writer.jpg",
+    "rating": 4.1,
+    "location": "Los Angeles, CA",
+    "reviews": [
+      {
+        "author": "Lucy Miller",
+        "published_on": "2024-01-02 14:55:22",
+        "review": "Creative and engaging content creation",
+        "rating": 4.0
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "HR Specialist at HR Excellence",
+    "cover": "https://example.com/images/hr_specialist.jpg",
+    "rating": 4.4,
+    "location": "Denver, CO",
+    "reviews": [
+      {
+        "author": "Daniel White",
+        "published_on": "2024-01-01 12:30:18",
+        "review": "Efficient recruitment and employee relations",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Product Manager at Product Innovations Ltd.",
+    "cover": "https://example.com/images/product_manager.jpg",
+    "rating": 4.9,
+    "location": "San Francisco, CA",
+    "reviews": [
+      {
+        "author": "Olivia Turner",
+        "published_on": "2023-12-31 11:15:05",
+        "review": "Successful product launches and strategic planning",
+        "rating": 5.0
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Sales Representative at Sales Pro Connect",
+    "cover": "https://example.com/images/sales_representative.jpg",
+    "rating": 4.0,
+    "location": "New York, NY",
+    "reviews": [
+      {
+        "author": "Benjamin Adams",
+        "published_on": "2023-12-30 10:05:30",
+        "review": "Effective communication and sales performance",
+        "rating": 3.5
+      }
+    ]
+  }
+]

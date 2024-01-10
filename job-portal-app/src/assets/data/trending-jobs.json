@@ -1,0 +1,126 @@
+[
+  {
+    "id": 11,
+    "name": "AI Researcher at Metergram",
+    "cover": "https://media.licdn.com/dms/image/C560BAQHjF-r5WOJHAg/company-logo_100_100/0/1632149321689/metergram_logo?e=1712793600&v=beta&t=N9VSwFLiBnnhgmsh7_fyKabOblC_gyyvCcvREDIdWVQ",
+    "rating": 4.9,
+    "location": "Seattle, WA",
+    "reviews": [
+      {
+        "author": "Eva Rodriguez",
+        "published_on": "2024-01-20 08:45:30",
+        "review": "Exciting projects at the forefront of AI research",
+        "rating": 5.0
+      },
+      {
+        "author": "Carlos Martinez",
+        "published_on": "2024-01-18 14:20:45",
+        "review": "Innovative and collaborative environment",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Cybersecurity at Fortinet Inc.",
+    "cover": "https://media.licdn.com/dms/image/C4D0BAQGDjF7LszGQ7A/company-logo_100_100/0/1673002660982/amiy_io_logo?e=1712793600&v=beta&t=jW8yXB50ZvIPexRKxmuAsdqHxuIv1M77Bw623wF33ZU",
+    "rating": 4.6,
+    "location": "Washington, D.C.",
+    "reviews": [
+      {
+        "author": "Sophia Thompson",
+        "published_on": "2024-01-15 12:30:22",
+        "review": "Critical role in protecting digital assets",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Engineer at EcoSolutions",
+    "cover": "https://media.licdn.com/dms/image/D560BAQHsF1EIN5BnIw/company-logo_100_100/0/1682947073470/vercel_logo?e=1712793600&v=beta&t=Xzz-yWZ7cU5_MsVLSdZ8yAjq7rTQnB8BlMOY4AZln-c",
+    "rating": 4.3,
+    "location": "Portland, OR",
+    "reviews": [
+      {
+        "author": "David Johnson",
+        "published_on": "2024-01-12 16:45:18",
+        "review": "Sustainable projects for a greener future",
+        "rating": 4.0
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Mobile Application Developer At Slice ",
+    "cover": "https://media.licdn.com/dms/image/C4E0BAQEXPBMBs0-0xQ/company-logo_100_100/0/1656002538491/slice_logo?e=1712793600&v=beta&t=D3PQqCZdQCewRMjrIzOtmblxQ7aSi8NQlztr5oqz6yo",
+    "rating": 4.7,
+    "location": "Austin, TX",
+    "reviews": [
+      {
+        "author": "Liam Turner",
+        "published_on": "2024-01-10 10:10:05",
+        "review": "Exciting opportunities in mobile app development",
+        "rating": 5.0
+      },
+      {
+        "author": "Emma Davis",
+        "published_on": "2024-01-08 13:55:30",
+        "review": "User-friendly and innovative apps",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Biomedical Scientist HealthInnovate",
+    "cover": "https://media.licdn.com/dms/image/D4E0BAQFSPsCKDQ-lvQ/company-logo_100_100/0/1697789289882/valtech_logo?e=1712793600&v=beta&t=y0C729wVIusjky51Ha-2_Y1qIt4hU90beVFpg7LNY-M",
+    "rating": 4.5,
+    "location": "Boston, MA",
+    "reviews": [
+      {
+        "author": "Dr. Alex Miller",
+        "published_on": "2024-01-07 09:45:30",
+        "review": "Cutting-edge research in biomedical science",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Game Developer at Casumo",
+    "cover": "https://media.licdn.com/dms/image/C4D0BAQEx88TPASvpdg/company-logo_100_100/0/1676644736738/casumo_logo?e=1712793600&v=beta&t=iBY3rFeo15J7cOGyAFuOQKYqA60WfInlP2G008nSemI",
+    "rating": 4.8,
+    "location": "Los Angeles, CA",
+    "reviews": [
+      {
+        "author": "Megan Turner",
+        "published_on": "2024-01-05 14:55:22",
+        "review": "Exciting projects in the gaming industry",
+        "rating": 5.0
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Data Analyst at Proton Inc.",
+    "cover": "https://media.licdn.com/dms/image/C4D0BAQHeOvrQIOmNzg/company-logo_100_100/0/1653481522290/protonprivacy_logo?e=1712793600&v=beta&t=oMKjG8lB8ETqIB0mOM6nyk3JS_s4HHSm1tLuQm7CACs",
+    "rating": 4.2,
+    "location": "New York, NY",
+    "reviews": [
+      {
+        "author": "Michelle Johnson",
+        "published_on": "2024-01-25 09:15:30",
+        "review": "Great company with diverse opportunities",
+        "rating": 4.5
+      },
+      {
+        "author": "Robert Williams",
+        "published_on": "2024-01-23 14:30:45",
+        "review": "Interesting projects and supportive team",
+        "rating": 4.0
+
+      }
+    ]
+  }
+]

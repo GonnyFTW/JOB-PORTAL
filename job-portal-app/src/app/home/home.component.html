@@ -1,1 +1,27 @@
-<app-header></app-header>
+<app-header> </app-header>
+<div class="home-container">
+  
+    <div class="all-jobs"></div>
+    <div class="trending-jobs">
+      <div class="top">
+        <h4>Trending Jobs</h4>
+        <div class="view-all">View All</div>
+      </div>
+      <div class="job-thumbnail">
+        <div class="job" *ngFor="let job of trendingJobs">
+
+          <div class="cover">
+            <img class="job-image" [src]="job.cover" alt="">
+          </div>
+          <div class="detail">
+            <div class="name">{{job.name}}</div>
+            <div class="location">{{job.location}}</div>
+            <div class="rating">{{job.rating}}</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="popular-jobs"></div>
+  </div>
+
