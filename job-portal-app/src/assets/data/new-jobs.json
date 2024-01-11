@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "AI Research at Quantum Labs",
-    "cover": "https://example.com/images/ai_research_scientist.jpg",
+    "cover": "https://media.licdn.com/dms/image/C560BAQG3_jKsLC-QIQ/company-logo_100_100/0/1659037454358/proton_ai_logo?e=1712793600&v=beta&t=NELMv4W_norf_fy8g0xccpVW6io1CmKqa1ZDpxVOoII",
     "rating": 4.8,
     "location": "Berlin, Germany",
     "reviews": [
@@ -22,10 +22,10 @@
   },
   {
     "id": 2,
-    "name": "Virtual Reality Developer at ImagiTech Solutions",
-    "cover": "https://example.com/images/vr_developer.jpg",
+    "name": "Cannabis Grower at Lumino",
+    "cover": "https://media.licdn.com/dms/image/C4D0BAQF99yGQogGZrA/company-logo_100_100/0/1633351174011/lumino_logo?e=1712793600&v=beta&t=c2nxaqeY0Ok6ixIRGb1DaF-OSN1zx3lfN8lMvz2pqGc",
     "rating": 4.5,
-    "location": "Los Angeles, CA",
+    "location": "Ohrid, MK",
     "reviews": [
       {
         "author": "Eva Thompson",
@@ -36,15 +36,15 @@
       {
         "author": "Ryan Baker",
         "published_on": "2024-01-07 16:00:00",
-        "review": "Exciting opportunities and fantastic team",
-        "rating": 4.2
+        "review": "I don't remember my experience I was high everyday but 100% would do it again",
+        "rating": 4.4
       }
     ]
   },
   {
     "id": 3,
     "name": "Blockchain Developer at CryptoTech Ventures",
-    "cover": "https://example.com/images/blockchain_developer.jpg",
+    "cover": "https://media.licdn.com/dms/image/C4E0BAQGWzwUKdqMPmQ/company-logo_100_100/0/1631354878924?e=1712793600&v=beta&t=J3XvmguagGovHXo-uTSJA25V_P8HZieqf6ShSHS65FE",
     "rating": 4.3,
     "location": "Singapore",
     "reviews": [
@@ -65,7 +65,7 @@
   {
     "id": 4,
     "name": "Environmental Analyst at GreenWorld",
-    "cover": "https://example.com/images/environmental_analyst.jpg",
+    "cover": "https://media.licdn.com/dms/image/C4E0BAQF9F01dsnDe1w/company-logo_100_100/0/1653049967951/asseco_south_eastern_europe_logo?e=1712793600&v=beta&t=lpKRDse3p75SHs1Z-jVtcd_VyISIm-qz7Sj_rJwX4y8",
     "rating": 4.9,
     "location": "Sydney, Australia",
     "reviews": [
@@ -86,7 +86,7 @@
   {
     "id": 5,
     "name": "Space Exploration Engineer at Galactic Frontiers",
-    "cover": "https://example.com/images/space_exploration_engineer.jpg",
+    "cover": "https://media.licdn.com/dms/image/D4E0BAQFSPsCKDQ-lvQ/company-logo_100_100/0/1697789289882/valtech_logo?e=1712793600&v=beta&t=y0C729wVIusjky51Ha-2_Y1qIt4hU90beVFpg7LNY-M",
     "rating": 4.7,
     "location": "Houston, TX",
     "reviews": [
@@ -107,7 +107,7 @@
   {
     "id": 6,
     "name": "Augmented Reality Designer at FuturaTech Creations",
-    "cover": "https://example.com/images/ar_designer.jpg",
+    "cover": "https://media.licdn.com/dms/image/D4D0BAQFkRbYA6Gd9Rg/company-logo_100_100/0/1681407200899/rldatix_logo?e=1712793600&v=beta&t=43TJNeO--G7k-cD2Ychic9OLFLhRt6iqPzI1ufxj-xQ",
     "rating": 4.4,
     "location": "Tokyo, Japan",
     "reviews": [
@@ -128,7 +128,7 @@
   {
     "id": 7,
     "name": "Medical Robotics Engineer at HealthTech Innovations",
-    "cover": "https://example.com/images/medical_robotics_engineer.jpg",
+    "cover": "https://media.licdn.com/dms/image/D4D0BAQGaugiVtLW-uA/company-logo_100_100/0/1685618414796/symphony_solutions_logo?e=1712793600&v=beta&t=7KhDYI_5b_RRdcu4x8sITTAeC_SwslNdq8rZcZe8XPU",
     "rating": 4.6,
     "location": "Berlin, Germany",
     "reviews": [

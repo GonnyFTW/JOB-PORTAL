@@ -5,7 +5,7 @@ import { Component, Input, OnInit } from '@angular/core';
   standalone: false,
 
   templateUrl: './start-rating.component.html',
-  styleUrl: './start-rating.component.scss'
+  styleUrls: ['./start-rating.component.scss']
 })
 export class StarRatingComponent implements OnInit {
 
