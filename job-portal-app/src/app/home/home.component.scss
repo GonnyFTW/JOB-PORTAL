@@ -13,16 +13,52 @@
   margin-top: 0px;
   order: 1;
   flex: 2;
-  min-height: calc(61vh - -598px);
-  font-family: 'Times New Roman', Times, serif;
+  min-height: calc(101vh - 379px);
   margin-left: 38px;
-  padding: 54px 103px;
+  padding: 0px 40px;
   border-left: 2px solid #faebd7;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 1249px;
+  margin-top: 23px;
+  margin-right: 43px;
+  min-width: calc(132vh - 576px)
+}
+
+.jobs {
+  margin-left: -125px;
+  margin-top: 35px;
+  margin-right: 1px;
+  min-height: calc(101vh - 379px);
+  min-width: calc(101vh - 379px);
+
+}
+
+h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-left: 5px solid #ffd800;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-left: 5px solid #ffd800;
+  padding-left: 10px;
+  margin-right: 10px;
+  
 }
 
 .job-section {
   display: flex;
   flex-direction: column;
+  margin-top: -780px;
+  margin-left: 40px;
+
 }
 
 .trending-jobs,
@@ -51,14 +87,14 @@ h4 {
   color: #ffd800;
   cursor: pointer;
   font-weight: bold;
-  margin-right: -310px; /* Adjust margin as needed */
+  margin-right: 99px; /* Adjust margin as needed */
 }
 
 .view-all-popular {
   color: #ffd800;
   cursor: pointer;
   font-weight: bold;
-  margin-right: -860px; /* Adjust margin as needed */
+  margin-right: -708px; /* Adjust margin as needed */
 }
 
 

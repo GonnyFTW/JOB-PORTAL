@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "AI Research Scientist at Quantum Innovations Labs",
+    "name": "AI Research at Quantum Labs",
     "cover": "https://example.com/images/ai_research_scientist.jpg",
     "rating": 4.8,
     "location": "Berlin, Germany",
@@ -64,7 +64,7 @@
   },
   {
     "id": 4,
-    "name": "Environmental Sustainability Analyst at GreenWorld Initiatives",
+    "name": "Environmental Analyst at GreenWorld",
     "cover": "https://example.com/images/environmental_analyst.jpg",
     "rating": 4.9,
     "location": "Sydney, Australia",
@@ -143,69 +143,6 @@
         "published_on": "2024-01-07 16:45:00",
         "review": "Cutting-edge technology and impactful work",
         "rating": 4.3
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Renewable Energy Specialist at EcoSolutions Group",
-    "cover": "https://example.com/images/renewable_energy_specialist.jpg",
-    "rating": 4.2,
-    "location": "San Francisco, CA",
-    "reviews": [
-      {
-        "author": "Sarah Thompson",
-        "published_on": "2024-01-06 13:10:20",
-        "review": "Meaningful work and positive impact on the environment",
-        "rating": 4.0
-      },
-      {
-        "author": "Daniel Brown",
-        "published_on": "2024-01-05 09:55:45",
-        "review": "Passionate team and innovative solutions",
-        "rating": 4.5
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "name": "Cybersecurity Analyst at SecureTech Solutions",
-    "cover": "https://example.com/images/cybersecurity_analyst.jpg",
-    "rating": 4.9,
-    "location": "London, UK",
-    "reviews": [
-      {
-        "author": "Alexandra Turner",
-        "published_on": "2024-01-04 17:30:10",
-        "review": "Challenging projects and strong team collaboration",
-        "rating": 5.0
-      },
-      {
-        "author": "James Wilson",
-        "published_on": "2024-01-03 14:25:30",
-        "review": "Top-notch security solutions and great colleagues",
-        "rating": 4.8
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "name": "Biomedical Engineer at HealthInnovate Solutions",
-    "cover": "https://example.com/images/biomedical_engineer.jpg",
-    "rating": 4.4,
-    "location": "Singapore",
-    "reviews": [
-      {
-        "author": "Dr. Mei Ling",
-        "published_on": "2024-01-02 12:40:15",
-        "review": "Innovative medical projects and collaborative team",
-        "rating": 4.2
-      },
-      {
-        "author": "Dr. Samuel Tan",
-        "published_on": "2024-01-01 10:15:00",
-        "review": "Exciting research and positive work environment",
-        "rating": 4.6
       }
     ]
   }

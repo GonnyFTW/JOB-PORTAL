@@ -18,12 +18,14 @@ export class HomeComponent implements OnInit {
 
   popularJobs: any;
   trendingJobs: any;
+  newJobs: any;
 
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
     this.getTrendingJobs();
     this.getPopularJobs();
+    this.getNewJobs();
   }
 
   getTrendingJobs() {
@@ -34,14 +36,20 @@ export class HomeComponent implements OnInit {
   }
 
   getPopularJobs() {
-      this.http.get('http://localhost:4200/assets/data/popular-jobs.json').subscribe((jobs) => {
-        this.popularJobs = jobs;
-       
-      });
+    this.http.get('http://localhost:4200/assets/data/popular-jobs.json').subscribe((jobs) => {
+      this.popularJobs = jobs;
 
-    }
+    });
+
+  }
+  getNewJobs() {
+    this.http.get('http://localhost:4200/assets/data/new-jobs.json').subscribe((jobs) => {
+      this.newJobs = jobs;
+
+    });
 
   }
 
 
 
+}
