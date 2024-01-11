@@ -223,3 +223,28 @@ button {
 btn.btn-dark {
   margin-left: 20px;
 }
+
+.application-success-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  text-align: center;
+
+  h2 {
+    color: #007bff;
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+}

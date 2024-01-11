@@ -12,7 +12,7 @@ import { JobApplicationService } from '../services/job-application.service';
   selector: 'app-jobs',
   standalone: true,
   imports: [HeaderComponent, HttpClientModule, CommonModule, NgbRatingModule, FeatureModule, FormsModule],
-  
+
   templateUrl: './jobs.component.html',
   styleUrls: ['./jobs.component.scss']
 })
@@ -37,6 +37,7 @@ export class JobsComponent implements OnInit {
     published_on: Date;
   } = undefined;
 
+  applicationSuccess = false;
   showApplicationForm = false;
   applicantName = '';
   applicantSurname = '';
@@ -136,6 +137,10 @@ export class JobsComponent implements OnInit {
       alert('Please fill in all fields in the application form.');
       return;
     }
+    if (this.applicantAge > 64) {
+      alert('You must be under 64 to apply.');
+      return;
+    }
 
     if (this.applicantAge < 18) {
       alert('You must be over 18 to apply.');
@@ -151,10 +156,16 @@ export class JobsComponent implements OnInit {
     };
 
     this.jobApplicationService.applyForJob(this.job, applicantInfo);
-
+    this.applicationSuccess = true;
     this.showApplicationForm = false;
     this.resetApplicationForm();
   }
+  closeApplicationSuccess() {
+    
+    this.applicationSuccess = false;
+  }
+
+
 
   resetApplicationForm() {
     this.applicantName = '';

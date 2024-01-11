@@ -93,3 +93,10 @@
     </div>
   </div>
 </div>
+
+
+<div *ngIf="applicationSuccess" class="application-success-dialog">
+  <h2>Application Submitted!</h2>
+  <p>You have successfully applied for {{ job?.name }}. Thank you for your application.</p>
+  <button class="btn btn-primary" (click)="closeApplicationSuccess()">Close</button>
+</div>
