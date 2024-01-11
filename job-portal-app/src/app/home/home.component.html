@@ -6,7 +6,7 @@
     <div class="jobs">
       <div class="job" *ngFor="let job of newJobs">
         
-          <div class="name">{{job.name}}</div>
+          <div class="name"(click)="goToJob('new', job.id)">{{job.name}}</div>
           <div class="location">{{job.location}}</div>
           <div class="rating">
             <span class="rating-value">{{job.rating}}</span>
@@ -25,11 +25,11 @@
               </div>
               <div class="job-thumbnail">
                 <div class="job" *ngFor="let job of trendingJobs">
-                  <div class="cover">
+                  <div class="cover" (click)="goToJob('trending', job.id)">
                     <img class="job-image" [src]="job.cover" alt="">
                   </div>
                   <div class="detail">
-                    <div class="name">{{job.name}}</div>
+                    <div class="name"(click)="goToJob('trending', job.id)">{{job.name}}</div>
                     <div class="location">{{job.location}}</div>
                     <div class="rating">
                       <span class="rating-value">{{job.rating}}</span>
@@ -51,11 +51,11 @@
               </div>
               <div class="job-thumbnail">
                 <div class="job" *ngFor="let job of popularJobs">
-                  <div class="cover">
+                  <div class="cover" (click)="goToJob('popular', job.id)">
                     <img class="job-image" [src]="job.cover" alt="">
                   </div>
                   <div class="detail">
-                    <div class="name">{{job.name}}</div>
+                    <div class="name"(click)="goToJob('popular', job.id)">{{job.name}}</div>
                     <div class="location">{{job.location}}</div>
                     <div class="rating">
                       <span class="rating-value">{{job.rating}}</span>

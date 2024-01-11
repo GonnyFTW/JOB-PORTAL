@@ -5,6 +5,7 @@ import { HeaderComponent } from '../header/header.component';  // Import HeaderC
 import { CommonModule } from '@angular/common';
 import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
 import { FeatureModule } from '../feature/feature.module';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -20,7 +21,7 @@ export class HomeComponent implements OnInit {
   trendingJobs: any;
   newJobs: any;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router: Router) { }
 
   ngOnInit(): void {
     this.getTrendingJobs();
@@ -50,6 +51,8 @@ export class HomeComponent implements OnInit {
 
   }
 
-
+  goToJob(type: string, id: string) {
+    this.router.navigate(['jobs', type, id]);
+  }
 
 }
