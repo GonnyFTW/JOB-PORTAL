@@ -6,11 +6,13 @@ import { ActivatedRoute } from '@angular/router';
 import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
 import { FeatureModule } from '../feature/feature.module';
 import { HeaderComponent } from '../header/header.component';
+import { JobApplicationService } from '../services/job-application.service';
 
 @Component({
   selector: 'app-jobs',
   standalone: true,
   imports: [HeaderComponent, HttpClientModule, CommonModule, NgbRatingModule, FeatureModule, FormsModule],
+  
   templateUrl: './jobs.component.html',
   styleUrls: ['./jobs.component.scss']
 })
@@ -42,7 +44,7 @@ export class JobsComponent implements OnInit {
   applicantAge = 0;
   applicantDescription = '';
 
-  constructor(private route: ActivatedRoute, private http: HttpClient) {
+  constructor(private route: ActivatedRoute, private http: HttpClient, private jobApplicationService: JobApplicationService) {
     this.submittedReview = {
       author: '',
       rating: 0,
@@ -140,7 +142,15 @@ export class JobsComponent implements OnInit {
       return;
     }
 
-    // Handle the submission logic here...
+    const applicantInfo = {
+      name: this.applicantName,
+      surname: this.applicantSurname,
+      gender: this.applicantGender,
+      age: this.applicantAge,
+      description: this.applicantDescription,
+    };
+
+    this.jobApplicationService.applyForJob(this.job, applicantInfo);
 
     this.showApplicationForm = false;
     this.resetApplicationForm();

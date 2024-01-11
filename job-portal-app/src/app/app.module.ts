@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
 import { FeatureModule } from './feature/feature.module';
+import { NotificationComponent } from './notification/notification.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FeatureModule } from './feature/feature.module';
     HttpClientModule,
     AppRoutingModule,
     NgbRatingModule,
-    FeatureModule
+    FeatureModule,
+    NotificationComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

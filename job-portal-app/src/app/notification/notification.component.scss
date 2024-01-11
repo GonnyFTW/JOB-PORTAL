@@ -1,0 +1,95 @@
+/* notification.component.scss */
+.notification {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notification h1 {
+  color: #333;
+}
+
+.notification h2 {
+  color: #007bff;
+}
+
+.notification p {
+  margin: 5px 0;
+}
+
+.notification button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.notification button:hover {
+  background-color: #0056b3;
+}
+
+.notification h3 {
+  color: #333;
+  margin-top: 10px;
+}
+
+/* jobs.component.scss */
+.job-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-container .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-container .left {
+  flex: 1;
+}
+
+.job-container .right {
+  flex: 1;
+}
+
+.job-container .cover img {
+  max-width: 100%;
+  height: auto;
+}
+
+.job-container .rating-form {
+  margin-top: 20px;
+}
+
+.job-container .apply-button-container {
+  margin-top: 20px;
+}
+
+.job-container .review {
+  margin-top: 20px;
+}
+
+.job-container .application-form-dialog {
+  margin-top: 20px;
+}
+
+.job-container form {
+  margin-top: 20px;
+}
+
+.job-container .btn-container {
+  margin-top: 20px;
+}
+
+/* Add more styles as needed */

@@ -1,1 +1,30 @@
-<app-header></app-header>
+<title>Job Application History</title>
+
+<body>
+
+  <app-header></app-header>
+
+  <div class="notification">
+    <h1>Your Application History will appear here</h1>
+  </div>
+
+  <div *ngFor="let appliedJob of appliedJobs" class="notification">
+    <h2>{{ appliedJob.job.name }} - {{ appliedJob.job.company }}</h2>
+    <p>Application Status: <strong>Submitted</strong></p>
+    <p>Location: {{ appliedJob.job.location }}</p>
+    <p>Application Date: <span class="date">{{ appliedJob.applicationDate | date }}</span></p>
+
+    <!-- View Details Section -->
+    <div *ngIf="appliedJob.showDetails">
+      <h3>Application Details</h3>
+      <p>Name: {{ appliedJob.applicant.name }} {{ appliedJob.applicant.surname }}</p>
+      <p>Age: {{ appliedJob.applicant.age }}</p>
+      <p>Gender: {{ appliedJob.applicant.gender }}</p>
+      <p>Description: {{ appliedJob.applicant.description }}</p>
+    </div>
+
+    <!-- Button to Toggle Details -->
+    <button (click)="toggleDetails(appliedJob)">View Details</button>
+  </div>
+
+</body>
