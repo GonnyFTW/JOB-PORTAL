@@ -9,20 +9,35 @@
   </div>
   <div class="login-form">
     <div class="form-group">
-            <label for="uname">Username</label>
-            <input type="text" name="uname" class="form-control" [(ngModel)]="username"/>
+      <label for="uname">Username</label>
+      <input type="text" name="uname" class="form-control" [(ngModel)]="username" />
     </div>
     <div class="form-group">
-            <label for="pword">Password</label>
-            <input type="password" name="pword" class="form-control" [(ngModel)]="password" />
-
+      <label for="pword">Password</label>
+      <input type="password" name="pword" class="form-control" [(ngModel)]="password" />
     </div>
     <div class="btn-container">
-      <div class="error">{{ errorMsg }}</div>
-      <button class="btn btn-dark"(click)="login()">Login</button>
-
+      <div class="error1">{{ errorMsg1 }}</div>
+      <button class="btn btn-dark" (click)="login()">Login</button>
     </div>
   </div>
-</div>
 
+  <!-- Registration Form -->
+  <div class="registration-form">
+    <h2>Register</h2>
+    <div class="form-group">
+      <label for="regUname">Username</label>
+      <input type="text" name="regUname" class="form-control" [(ngModel)]="registerUsername" />
+    </div>
+    <div class="form-group">
+      <label for="regPword">Password</label>
+      <input type="password" name="regPword" class="form-control" [(ngModel)]="registerPassword" />
+    </div>
+    <div class="error-container">
+      <div class="error2">{{ errorMsg2 }}</div>
+      <div class="confirmation" *ngIf="registrationSuccess">Registration successful!</div>
+    </div>
+    <button class="btn btn-dark" (click)="register()">Register</button>
+  </div>
 
+  </div>

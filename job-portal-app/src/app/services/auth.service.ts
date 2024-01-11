@@ -6,18 +6,32 @@ import { Router } from '@angular/router';
 })
 export class AuthService {
 
+  
+  private registeredUsers: { username: string, password: string }[] = [];
+
   constructor(private router: Router) { }
 
-  login(uname: string, pword: string) {
-    if (uname === 'agon' && pword === '1234') {
-      return 200;
+  login(username: string, password: string): number {
+    const user = this.registeredUsers.find(u => u.username === username && u.password === password);
+    if (user) {
+      return 200; 
     } else {
-      return 403;
+      return 403; 
     }
   }
 
-  logout() {
-    this.router.navigate(['login'])
+  register(username: string, password: string): void {
+    
+    if (this.registeredUsers.some(u => u.username === username)) {
+      console.error('Username already taken');
+      return;
+    }
 
+    
+    this.registeredUsers.push({ username, password });
+  }
+
+  logout(): void {
+    this.router.navigate(['login']);
   }
 }
