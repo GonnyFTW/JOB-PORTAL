@@ -16,9 +16,6 @@ import { HeaderComponent } from '../header/header.component';
 })
 
 export class JobsComponent implements OnInit {
-
-  
-
   type = '';
   id = '';
   url = '';
@@ -38,8 +35,14 @@ export class JobsComponent implements OnInit {
     published_on: Date;
   } = undefined;
 
+  showApplicationForm = false;
+  applicantName = '';
+  applicantSurname = '';
+  applicantGender = 'male';
+  applicantAge = 0;
+  applicantDescription = '';
+
   constructor(private route: ActivatedRoute, private http: HttpClient) {
-    
     this.submittedReview = {
       author: '',
       rating: 0,
@@ -67,8 +70,6 @@ export class JobsComponent implements OnInit {
     this.getJob();
   }
 
-  
-
   getJob() {
     this.http.get(this.url).subscribe((jobs) => {
       this.jobs = jobs;
@@ -82,6 +83,11 @@ export class JobsComponent implements OnInit {
   }
 
   submitReview() {
+    if (!this.newReview.author.trim() || !this.newReview.review.trim()) {
+      alert('Please fill in all fields in the review form.');
+      return;
+    }
+
     if (!this.job.reviews) {
       this.job.reviews = [];
     }
@@ -95,11 +101,9 @@ export class JobsComponent implements OnInit {
 
     this.job.reviews.unshift(newReview);
 
-    
     const totalRating = (this.job.reviews as { rating: number }[]).reduce((sum, review) => sum + review.rating, 0);
     this.job.rating = totalRating / this.job.reviews.length;
 
-    
     this.job = { ...this.job };
 
     this.newReview = {
@@ -108,18 +112,9 @@ export class JobsComponent implements OnInit {
       review: '',
     };
 
-    
     this.submittedReview = newReview;
   }
 
-  showApplicationForm = false;
-  applicantName = '';
-  applicantSurname = '';
-  applicantGender = 'male';
-  applicantAge = 0;
-  applicantDescription = '';
-
- 
   openApplicationForm() {
     this.showApplicationForm = true;
   }
@@ -129,9 +124,25 @@ export class JobsComponent implements OnInit {
   }
 
   submitApplication() {
-    
+    if (
+      !this.applicantName.trim() ||
+      !this.applicantSurname.trim() ||
+      !this.applicantGender ||
+      this.applicantAge === 0 ||
+      !this.applicantDescription.trim()
+    ) {
+      alert('Please fill in all fields in the application form.');
+      return;
+    }
+
+    if (this.applicantAge < 18) {
+      alert('You must be over 18 to apply.');
+      return;
+    }
+
+    // Handle the submission logic here...
+
     this.showApplicationForm = false;
-   
     this.resetApplicationForm();
   }
 
@@ -142,6 +153,4 @@ export class JobsComponent implements OnInit {
     this.applicantAge = 0;
     this.applicantDescription = '';
   }
-
-
 }
