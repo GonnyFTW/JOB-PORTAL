@@ -1,0 +1,21 @@
+<div class="job-dialog">
+  <h4>All Jobs</h4>
+  <div class="job-thumbnail" #jobThumbnailContainer>
+    <div class="job" *ngFor="let job of allJobs">
+      <!-- Display job details as per your layout -->
+      <div class="cover" (click)="goToJob('trending', job.id)">
+        <img class="job-image" [src]="job.cover" alt="">
+      </div>
+      <div class="detail">
+        <!-- Pass the category to the goToJob method -->
+        <div class="name" (click)="goToJob('trending', job.id)">{{ job.name }}</div>
+  
+        <div class="location">{{ job.location }}</div>
+        <div class="rating">
+          <span class="rating-value">{{ job.rating }}</span>
+          <app-star-rating [rating]="job.rating" [isReadOnly]="true"></app-star-rating>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,100 @@
+/* job-dialog.component.scss */
+
+.job-dialog {
+  max-height: 80vh;
+ 
+  padding: 20px;
+}
+
+h4 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.job-thumbnail {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.job {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  .cover {
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .detail {
+    margin-top: 10px;
+
+    .name {
+      color: #007bff;
+      font-weight: bold;
+      cursor: pointer;
+      }
+
+      .name2 {
+        color: #007bff;
+        font-weight: bold;
+        cursor: pointer;
+        }
+
+        .name3 {
+          color: #007bff;
+          font-weight: bold;
+          cursor: pointer;
+          }
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .location {
+          color: #555;
+        }
+
+        .rating {
+          margin-top: 5px;
+          display: flex;
+          align-items: center;
+
+          .rating-value {
+            margin-right: 5px;
+            color: #f39c12;
+            font-weight: bold;
+          }
+        }
+      }
+    
+
+    .scroll-down {
+      text-align: center;
+      padding: 10px;
+      cursor: pointer;
+      color: #007bff;
+      font-weight: bold;
+      border-top: 1px solid #ddd;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #f4f4f4;
+      }
+    }

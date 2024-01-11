@@ -2,10 +2,13 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';  // Import HeaderComponent here
 
+
 import { CommonModule } from '@angular/common';
 import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
 import { FeatureModule } from '../feature/feature.module';
 import { Router } from '@angular/router';
+import { JobDialogComponent } from '../job-dialog/job-dialog.component';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-home',
@@ -23,7 +26,7 @@ export class HomeComponent implements OnInit {
   trendingJobs: any;
   newJobs: any;
 
-  constructor(private http: HttpClient, private router: Router) { }
+  constructor(private http: HttpClient, private router: Router, private dialog: MatDialog) { }
 
   ngOnInit(): void {
     this.getTrendingJobs();
@@ -58,4 +61,16 @@ export class HomeComponent implements OnInit {
     this.router.navigate(['jobs', type, id]);
   }
 
+  openJobDialog() {
+    const dialogRef = this.dialog.open(JobDialogComponent, {
+      width: '800px',
+      data: { allJobs: [...this.trendingJobs, ...this.popularJobs, ...this.newJobs] },
+    });
+
+    dialogRef.afterClosed().subscribe((result) => {
+      
+    });
+  }
 }
+
+
