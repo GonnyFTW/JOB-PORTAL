@@ -11,6 +11,17 @@ import { AuthService } from '../services/auth.service';
 })
 export class HeaderComponent {
 
+
+  showNotifications() {
+    
+    this.router.navigate(['/notification']);
+  }
+
+  showAboutUs() {
+    this.router.navigate(['/about-us']);
+  }
+
+
   constructor(private router: Router, private auth: AuthService) { }
 
   ngOnInit(): void {

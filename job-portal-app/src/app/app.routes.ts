@@ -8,6 +8,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
 import { CommonModule } from '@angular/common';
+import { NotificationComponent } from './notification/notification.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 
 
@@ -16,7 +18,10 @@ export const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'home', component: HomeComponent },
   { path: 'jobs/:type/:id', component: JobsComponent },
-  { path: '**', component: LoginComponent }
+  { path: 'about-us', component: AboutUsComponent },
+  { path: 'notification', component: NotificationComponent },
+  { path: '**', component: LoginComponent },
+  
 ];
 
 @NgModule({

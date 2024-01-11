@@ -1,0 +1,80 @@
+div {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.faq-section {
+  margin-top: 40px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  color: #333;
+  font-weight: bold;
+}
+
+.faq-answer {
+  color: #666;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.contact-section {
+  margin-top: 20px;
+}
+
+.contact-section h3 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.contact-section p {
+  color: #666;
+}
+
+.contact-section ul {
+  padding-left: 20px;
+  list-style-type: none;
+  color: #666;
+}
+
+.contact-section ul li {
+  margin-bottom: 10px;
+}
+
+.github-link {
+  margin-top: 20px;
+}
+
+.github-link a {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+}
+
+.github-link img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+  margin-top: -4px;
+}
