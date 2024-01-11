@@ -1,21 +1,24 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges } from '@angular/core';
 
 @Component({
   selector: 'app-star-rating',
-  standalone: false,
-
   templateUrl: './start-rating.component.html',
-  styleUrls: ['./start-rating.component.scss']
+  styleUrls: ['./start-rating.component.scss'],
+  outputs: ['ratingChange: rating']
 })
-export class StarRatingComponent implements OnInit {
+export class StarRatingComponent implements OnInit, OnChanges {
 
   @Input() rating: any;
   @Input() isReadOnly: boolean = false;
+  @Output() ratingChange: EventEmitter<number> = new EventEmitter<number>();
 
-  constructor() { }
+  ngOnChanges(changes: SimpleChanges) {
+    if (changes['rating']) {
+      console.log('Rating changed:', this.rating);
+    }
+  }
 
   ngOnInit(): void {
-
   }
 
   ariaValueText(current: number, max: number) {

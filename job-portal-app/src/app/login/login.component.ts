@@ -41,10 +41,10 @@ export class LoginComponent {
       this.errorMsg2 = "Both username and password are required for registration";
     } else {
       this.errorMsg2 = "";
-      // Assume a successful registration will navigate to the login page
+     
       this.auth.register(this.registerUsername, this.registerPassword);
       this.registrationSuccess = true;
-      // Optionally, you can reset the registration fields here
+     
       this.registerUsername = "";
       this.registerPassword = "";
     }

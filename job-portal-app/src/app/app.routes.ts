@@ -7,6 +7,8 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
+import { CommonModule } from '@angular/common';
+
 
 
 export const routes: Routes = [
@@ -19,7 +21,7 @@ export const routes: Routes = [
 
 @NgModule({
   declarations: [LoginComponent],
-  imports: [RouterModule.forRoot(routes), FormsModule, BrowserModule, HttpClientModule],
+  imports: [RouterModule.forRoot(routes), FormsModule, BrowserModule, HttpClientModule, CommonModule],
   exports: [RouterModule],
   
 

@@ -17,6 +17,8 @@ import { Router } from '@angular/router';
 
 export class HomeComponent implements OnInit {
 
+  reviews: any[] = [];
+
   popularJobs: any;
   trendingJobs: any;
   newJobs: any;
@@ -27,6 +29,7 @@ export class HomeComponent implements OnInit {
     this.getTrendingJobs();
     this.getPopularJobs();
     this.getNewJobs();
+   
   }
 
   getTrendingJobs() {
