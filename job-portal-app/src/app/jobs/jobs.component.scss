@@ -4,20 +4,32 @@
 }
 
 .top {
+ 
+
   display: flex;
   margin-left: 20px;
   margin-top: 20px;
 }
-
-.rating-form {
+.review-right{
+.rating {
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: -19px;
+  margin-top: 32px;
 }
-
+}
 .left {
   width: 450px;
   margin-top: 19px;
+}
+
+.description {
+  width: 900px;
+  padding-top: 409px;
+  margin-left: 538px;
+  margin-top: 1px;
+  line-height: 1;
+  margin-bottom: 101px;
+  font-weight: bold;
 }
 
 .name {
@@ -30,9 +42,9 @@
 .rating {
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 97px;
   margin-left: 188px;
-  margin-top: 20px;
+  margin-top: -537px;
 }
 
 .rating-value {
@@ -44,6 +56,15 @@
   width: 400px;
   height: 500px;
   margin-right: 50px;
+
+  .description {
+    width: 900px;
+    padding-top: 377px;
+    margin-left: 542px;
+    margin-top: 27px;
+    font-weight: bold;
+    margin-bottom: 116px;
+  }
 }
 
 img {
@@ -52,13 +73,15 @@ img {
   object-fit: cover;
   margin-left: 188px;
   border-radius: 23px;
+  margin-top: -72px;
 }
 
 .right {
   width: 900px;
   padding-top: 100px;
   margin-left: 90px;
-  margin-top: -6px;
+  margin-top: -57px;
+  margin-right: 40px;
 }
 
 .title {
@@ -127,7 +150,7 @@ textarea {
 
 .location {
   margin-left: 188px;
-  font-weight: bold;
+
 }
 
 .apply-button-container {

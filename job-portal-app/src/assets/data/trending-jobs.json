@@ -18,7 +18,8 @@
         "review": "Innovative and collaborative environment",
         "rating": 4.83
       }
-    ]
+    ],
+    "description": "Join Metergram as an AI Researcher in Seattle. Work on exciting projects at the forefront of AI research. Be part of an innovative and collaborative environment, contributing to cutting-edge advancements in artificial intelligence."
   },
   {
     "id": 12,
@@ -33,7 +34,8 @@
         "review": "Critical role in protecting digital assets",
         "rating": 4.54
       }
-    ]
+    ],
+    "description": "Protect digital assets with Fortinet Inc. as a Cybersecurity professional in Washington, D.C. Play a critical role in cybersecurity and contribute to safeguarding digital environments."
   },
   {
     "id": 13,
@@ -48,11 +50,12 @@
         "review": "Sustainable projects for a greener future",
         "rating": 4.00
       }
-    ]
+    ],
+    "description": "Be an Engineer at EcoSolutions in Portland, OR. Contribute to sustainable projects for a greener future. Join a team dedicated to making a positive environmental impact."
   },
   {
     "id": 14,
-    "name": "Mobile Application Developer At Slice ",
+    "name": "Mobile Application Developer At Slice",
     "cover": "https://media.licdn.com/dms/image/C4E0BAQEXPBMBs0-0xQ/company-logo_100_100/0/1656002538491/slice_logo?e=1712793600&v=beta&t=D3PQqCZdQCewRMjrIzOtmblxQ7aSi8NQlztr5oqz6yo",
     "rating": 2.77,
     "location": "Austin, TX",
@@ -61,15 +64,16 @@
         "author": "Liam Turner",
         "published_on": "2024-01-10 10:10:05",
         "review": "Exciting opportunities in mobile app development",
-        "rating": 5.53
+        "rating": 2.53
       },
       {
         "author": "Emma Davis",
         "published_on": "2024-01-08 13:55:30",
         "review": "User-friendly and innovative apps",
-        "rating": 4.53
+        "rating": 3.53
       }
-    ]
+    ],
+    "description": "Explore exciting opportunities in mobile app development with Slice in Austin, TX. Be part of a team creating user-friendly and innovative applications, and contribute to the cutting edge of mobile technology."
   },
   {
     "id": 15,
@@ -84,7 +88,8 @@
         "review": "Cutting-edge research in biomedical science",
         "rating": 4.83
       }
-    ]
+    ],
+    "description": "Contribute to cutting-edge research in biomedical science with HealthInnovate in Boston, MA. Be part of a team dedicated to advancing healthcare through innovative scientific exploration."
   },
   {
     "id": 16,
@@ -99,7 +104,8 @@
         "review": "Exciting projects in the gaming industry",
         "rating": 5.00
       }
-    ]
+    ],
+    "description": "Embark on an exciting career as a Game Developer with Casumo in Los Angeles, CA. Contribute to cutting-edge projects in the gaming industry and be part of an innovative and creative team."
   },
   {
     "id": 17,
@@ -119,8 +125,8 @@
         "published_on": "2024-01-23 14:30:45",
         "review": "Interesting projects and supportive team",
         "rating": 4.02
-
       }
-    ]
+    ],
+    "description": "Join Proton Inc. as a Data Analyst in New York, NY. Be part of a great company with diverse opportunities, and contribute to interesting projects with a supportive team."
   }
 ]

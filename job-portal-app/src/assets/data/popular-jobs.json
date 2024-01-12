@@ -18,7 +18,8 @@
         "review": "Excellent team collaboration",
         "rating": 4.5
       }
-    ]
+    ],
+    "description": "Join Tech Innovators Inc. as a Developer in San Francisco. Explore exciting projects and collaborate with a diverse team. Contribute to innovative solutions and be part of a great working environment."
   },
   {
     "id": 2,
@@ -33,7 +34,8 @@
         "review": "Exciting projects and creative freedom",
         "rating": 4.0
       }
-    ]
+    ],
+    "description": "Become a Coordinator at Solutions in New York. Engage in exciting projects and enjoy creative freedom. Join a dynamic team and contribute to innovative solutions."
   },
   {
     "id": 3,
@@ -48,7 +50,8 @@
         "review": "Innovative data-driven projects",
         "rating": 5.0
       }
-    ]
+    ],
+    "description": "Join Naissus as a Data Analyst in Seattle. Work on innovative data-driven projects with a focus on creativity and excellence. Be part of a dynamic team shaping the future of data analytics."
   },
   {
     "id": 4,
@@ -69,7 +72,8 @@
         "review": "Impressive design portfolio",
         "rating": 4.5
       }
-    ]
+    ],
+    "description": "Express your creativity as a Designer at Creative Studios in San Francisco. Create beautiful and user-friendly designs, build an impressive portfolio, and collaborate with a talented team."
   },
   {
     "id": 5,
@@ -84,7 +88,8 @@
         "review": "Used to work here, I don't recommend",
         "rating": 1.0
       }
-    ]
+    ],
+    "description": "Explore the world of networking as a Network Engineer at A1 in Skopje. However, please note that a former employee does not recommend this workplace. Consider this feedback in your decision-making process."
   },
   {
     "id": 6,
@@ -99,7 +104,8 @@
         "review": "Efficient management of IT infrastructure",
         "rating": 4.5
       }
-    ]
+    ],
+    "description": "Join IT Solutions in Austin as an Administrator. Be part of efficient management of IT infrastructure. Contribute to the smooth operation of IT systems and work in a dynamic and supportive environment."
   },
   {
     "id": 7,
@@ -114,6 +120,7 @@
         "review": "Creative and engaging content creation",
         "rating": 4.0
       }
-    ]
+    ],
+    "description": "Unleash your creativity as a Content Writer at Creative Inc. in Los Angeles. Create engaging and creative content, and be part of a team that values innovation and originality."
   }
-] 
+]

@@ -18,7 +18,8 @@
         "review": "Cutting-edge research and great work culture",
         "rating": 4.7
       }
-    ]
+    ],
+    "description": "Join Quantum Labs for AI research in Berlin. Be part of an exciting team working on cutting-edge projects. Collaborate with brilliant minds and contribute to groundbreaking advancements in the field."
   },
   {
     "id": 2,
@@ -39,7 +40,8 @@
         "review": "I don't remember my experience I was high everyday but 100% would do it again",
         "rating": 4.4
       }
-    ]
+    ],
+    "description": "Lumino is seeking a Cannabis Grower in Ohrid. Join an innovative team in a supportive environment. Explore new projects and contribute to the future of cannabis cultivation."
   },
   {
     "id": 3,
@@ -60,7 +62,8 @@
         "review": "Cutting-edge technology and great learning opportunities",
         "rating": 4.1
       }
-    ]
+    ],
+    "description": "Exciting opportunity for a Blockchain Developer at CryptoTech Ventures in Singapore. Work on innovative blockchain projects with a collaborative team. Experience cutting-edge technology and great learning opportunities."
   },
   {
     "id": 4,
@@ -81,7 +84,8 @@
         "review": "Passionate team and innovative solutions",
         "rating": 4.8
       }
-    ]
+    ],
+    "description": "Make a positive impact as an Environmental Analyst at GreenWorld in Sydney. Engage in meaningful work, collaborate with a passionate team, and contribute to innovative solutions for a greener world."
   },
   {
     "id": 5,
@@ -102,7 +106,8 @@
         "review": "Innovative work and supportive colleagues",
         "rating": 4.9
       }
-    ]
+    ],
+    "description": "Explore the cosmos as a Space Exploration Engineer at Galactic Frontiers in Houston. Engage in exciting space projects, collaborate in a dynamic atmosphere, and contribute to the future of space exploration."
   },
   {
     "id": 6,
@@ -123,7 +128,8 @@
         "review": "Great collaboration and creative opportunities",
         "rating": 4.2
       }
-    ]
+    ],
+    "description": "Join FuturaTech Creations in Tokyo as an Augmented Reality Designer. Immerse yourself in innovative AR projects and a friendly work environment. Unlock creative opportunities in the heart of technology."
   },
   {
     "id": 7,
@@ -144,6 +150,7 @@
         "review": "Cutting-edge technology and impactful work",
         "rating": 4.3
       }
-    ]
+    ],
+    "description": "Revolutionize healthcare as a Medical Robotics Engineer at HealthTech Innovations in Berlin. Contribute to groundbreaking projects with a supportive team. Work on cutting-edge technology and make a meaningful impact on healthcare."
   }
 ]
